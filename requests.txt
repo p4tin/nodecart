@@ -1,0 +1,5 @@
+
+
+curl -i -X POST -H "Content-Type: application/json" -d '{"title":"NodeJS Developer Required" , "description":"NodeJS Developer Required" , "location":"Sector 30, Gurgaon, India"}' http://127.0.0.1:8080/cart
+
+curl -is http://127.0.0.1:8080/cart
